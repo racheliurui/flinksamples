@@ -15,3 +15,16 @@ $ mvn archetype:generate                               \
       -DarchetypeArtifactId=flink-quickstart-java      \
       -DarchetypeVersion=1.3.2
 ```
+
+Add folder as src/test/java ; right click java -> Mark Directory as -> Test Sources roots
+Add folder as src/test/resources ; right click resources -> Mark Directory as -> Test Resources roots
+
+
+# Based on Sample
+
+```java
+import org.apache.flink.api.java.ExecutionEnvironment;
+import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
+```
+
+The environment to run the job is different for batch and stream.

@@ -104,6 +104,22 @@ under the License.
 			<artifactId>log4j</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
+
+
+		<!--connector for kafak; not included in core-->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.flink/flink-connector-kafka-0.10 -->
+		<dependency>
+			<groupId>org.apache.flink</groupId>
+			<artifactId>flink-connector-kafka-0.10_2.10</artifactId>
+			<version>1.3.2</version>
+		</dependency>
+
+
+
+
+
+
 	</dependencies>
 
 	<profiles>
